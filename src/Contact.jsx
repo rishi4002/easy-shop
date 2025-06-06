@@ -15,7 +15,7 @@ function Contact() {
     return(
         <div className="flex flex-col w-full">
              <IoMdArrowRoundBack className="fixed top-16 left-5 text-2xl" onClick={handleBack}/>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuep2DehusQNNT5xFkOcr3nkP-_46JH28uzw&s" className="w-full h-[60%] object-cover"/>
+            <img src="/vite.svg" className="w-full h-[60%] object-cover"/>
             <div className="flex flex-col sm:flex-row justify-around w-full mt-6 gap-5 px-5 text-center">
                <div>
                 <h1>E-MAIL</h1>
