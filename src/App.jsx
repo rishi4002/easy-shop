@@ -18,7 +18,7 @@ function App() {
       <div className='flex grow overflow-y-scroll justify-center pb-20 relative'>
         
         <Routes>
-          <Route index element={<Productlist />} />
+          <Route index path="/" element={<Productlist />} />
           <Route path='/product/:id' element={<Detailcard />} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='/cart' element={<Cart />} />
